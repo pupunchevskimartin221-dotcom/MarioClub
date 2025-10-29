@@ -1,0 +1,285 @@
+body li ul a h1 h2 h3 p{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+
+header{
+    background-color: #FF0000;
+    text-align: center;
+    padding: 20px;
+    position : fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+header h1{
+    color: white;
+    border: 8px solid white;
+    font-size: 2.5em;
+    margin: 0;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 36px;
+}
+
+.banner{
+position: relative;
+}
+
+.Banner img{
+    max-width: 100%;
+}
+
+.Banner .Welcome{
+    background-color: #FEB614;
+    color: white;
+    padding: 30px;
+    position: absolute;
+    left: 0;
+    top: 20%;
+}
+
+.Banner .Welcome h2{
+    font-size: 74px;
+}
+
+.Banner .Welcome span{
+    font-size: 1.3em;
+}
+
+nav{
+    background-color: #F4F4F4;
+    padding: 20px;
+    position: sticky;
+    top: 115px;
+
+}
+nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+}
+nav ul{
+     white-space: nowrap;
+     max-width: 1200px;
+        margin: 0 auto;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #4b4b4b;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav li .join{
+    color: #FF0000
+}
+
+
+main{
+    max-width: 100%;
+   width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+article h2{
+    color: #F63232;
+    font-size: 48px;
+}
+
+article p{
+    line-height: 2em;
+    color : #4b4b4b;
+}
+
+.Images{
+text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+}
+
+.Images li{
+    display: inline-block;
+    width: 40%;
+    margin: 20px 5%;
+
+}
+
+.Images li img{
+    max-width: 100%;
+}
+
+.Join{
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 60px 20px;
+       color: #4b4b4b;
+}
+
+.Join h2{
+    font-size: 36px;
+}
+
+form input[type="text"], form input[type="email"]{
+    padding: 10px 20px;
+    font-size:24 px;
+    margin: 20px 0;
+    border: 4px solid #ccc;
+    border-radius: 28px;
+}
+
+.JoinTheClub{
+    color: #F63232;
+    text-decoration: none;
+    padding: 14px 28px;
+    font-size: 24px;
+    border-radius: 28px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.News{
+    text-decoration: none;
+    padding: 14px 28px;
+    font-size: 24px;
+    border-radius: 28px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.Games{
+        text-decoration: none;
+    padding: 14px 28px;
+    font-size: 24px;
+    border-radius: 28px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.Contact{
+        text-decoration: none;
+    padding: 14px 28px;
+    font-size: 24px;
+    border-radius: 28px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+footer{
+    color: white;
+    background-color: #F63232;
+    text-align: center;
+    padding: 10px;
+}
+
+/*psudo classes*/
+
+nav li a:hover{
+    background-color: #F63232;
+    padding : 10px;
+    color: white;
+    border-radius: 28px;
+
+    
+}
+
+.Images li:hover{
+   position: relative;
+   top: -4px;
+}
+
+form input:focus{
+    border: 4px solid #F63232;
+    outline: none;
+}
+
+form input:valid{
+    border: 4px solid #4BB543;
+}
+
+nav li a:first-child{
+    font-weight: bold;
+}
+
+article p::first-line{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+p::selection {
+    background-color: #F63232;
+    color: white;
+}
+
+p::after {
+    content: " 🍄👲🏻🏰";
+    color: red;
+}
+
+@media screen and (max-width: 1400px) {
+ .Banner .Welcome h2{
+   font-size: 60px;
+}
+nav li{
+    font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1038px) {
+.Banner .Welcome h2{
+    font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+.Banner .Welcome{
+    position: static;
+    padding: 20px;
+    text-align: center;
+    padding: 2px;
+    }
+    .Images li{
+    width: 100%;
+    margin: 20px 0;
+    display: block;
+    }
+}
+@media screen and (max-width: 600px) {
+ nav li{
+    width: 100%;
+    text-align: center;
+    }
+ main{
+    padding: 0 20px;
+    }
+ .Images li{
+    width: 100%;
+    margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    nav li{
+        font-size: 20px;
+        display: block;
+        width: 100%;
+        margin: 12px 0;
+        text-align: center;
+    }
+    header{
+        position: relative;}
+}
+nav{
+    position: relative;
+    top: 0;
+}
+
+
